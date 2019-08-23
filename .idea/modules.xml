@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-core/common-core.iml" filepath="$PROJECT_DIR$/common-core/common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-dependencies/common-dependencies.iml" filepath="$PROJECT_DIR$/common-dependencies/common-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_funny.iml" filepath="$PROJECT_DIR$/spring_funny.iml" />
+    </modules>
+  </component>
+</project>
