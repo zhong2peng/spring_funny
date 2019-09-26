@@ -1,0 +1,39 @@
+debug: true
+server:
+  port: 8010
+spring:
+  application:
+    name: microservice-provider-user-ha
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+logging:
+  level:
+    root: info
+    org.hibernate: info
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    enabled-by-default: true
+    web:
+      base-path: "/actuator"
+      exposure:
+        include: "*"
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8761/eureka/
+  instance:
+    appname: ${spring.application.name}
+    # 表示将自己的IP注册到Eureka Server
+    prefer-ip-address: true

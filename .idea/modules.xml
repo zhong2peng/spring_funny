@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud/001-eureka/001-eureka.iml" filepath="$PROJECT_DIR$/cloud/001-eureka/001-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/002-eureka-ha/002-eureka-ha.iml" filepath="$PROJECT_DIR$/cloud/002-eureka-ha/002-eureka-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/003-ribbon/003-ribbon.iml" filepath="$PROJECT_DIR$/cloud/003-ribbon/003-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/cloud.iml" filepath="$PROJECT_DIR$/cloud/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-core/common-core.iml" filepath="$PROJECT_DIR$/common-core/common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-dependencies/common-dependencies.iml" filepath="$PROJECT_DIR$/common-dependencies/common-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/003-ribbon/consumer-movie-ribbon/consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/cloud/003-ribbon/consumer-movie-ribbon/consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/003-ribbon/discovery-eureka-ribbon/discovery-eureka-ribbon.iml" filepath="$PROJECT_DIR$/cloud/003-ribbon/discovery-eureka-ribbon/discovery-eureka-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/001-eureka/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/cloud/001-eureka/microservice-consumer-movie/microservice-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/002-eureka-ha/microservice-consumer-movie-ha/microservice-consumer-movie-ha.iml" filepath="$PROJECT_DIR$/cloud/002-eureka-ha/microservice-consumer-movie-ha/microservice-consumer-movie-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/001-eureka/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/cloud/001-eureka/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/002-eureka-ha/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/cloud/002-eureka-ha/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/001-eureka/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/cloud/001-eureka/microservice-provider-user/microservice-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/002-eureka-ha/microservice-provider-user-ha/microservice-provider-user-ha.iml" filepath="$PROJECT_DIR$/cloud/002-eureka-ha/microservice-provider-user-ha/microservice-provider-user-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/003-ribbon/provider-user-ribbon/provider-user-ribbon.iml" filepath="$PROJECT_DIR$/cloud/003-ribbon/provider-user-ribbon/provider-user-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_funny.iml" filepath="$PROJECT_DIR$/spring_funny.iml" />
     </modules>
   </component>

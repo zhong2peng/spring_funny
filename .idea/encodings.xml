@@ -2,6 +2,19 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/001-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/001-eureka/microservice-consumer-movie" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/001-eureka/microservice-discovery-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/001-eureka/microservice-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/002-eureka-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/002-eureka-ha/microservice-consumer-movie-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/002-eureka-ha/microservice-discovery-eureka-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/002-eureka-ha/microservice-provider-user-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/003-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/003-ribbon/consumer-movie-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/003-ribbon/discovery-eureka-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/003-ribbon/provider-user-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-dependencies" charset="UTF-8" />
   </component>

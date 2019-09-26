@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>001-eureka</module>
+        <module>002-eureka-ha</module>
+        <module>003-ribbon</module>
     </modules>
 
     <properties>

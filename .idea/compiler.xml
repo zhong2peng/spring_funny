@@ -8,11 +8,33 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common-core" />
         <module name="common-dependencies" />
+        <module name="consumer-movie-ribbon" />
+        <module name="discovery-eureka-ribbon" />
+        <module name="microservice-consumer-movie" />
+        <module name="microservice-consumer-movie-ha" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-provider-user" />
+        <module name="microservice-provider-user-ha" />
+        <module name="provider-user-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="001-eureka" target="1.8" />
+      <module name="002-eureka-ha" target="1.8" />
+      <module name="003-ribbon" target="1.8" />
+      <module name="cloud" target="1.8" />
       <module name="common-core" target="1.8" />
       <module name="common-dependencies" target="1.8" />
+      <module name="consumer-movie-ribbon" target="1.8" />
+      <module name="discovery-eureka-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-consumer-movie-ha" target="1.8" />
+      <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-provider-user-ha" target="1.8" />
+      <module name="provider-user-ribbon" target="1.8" />
       <module name="spring_funny" target="1.8" />
     </bytecodeTargetLevel>
   </component>
