@@ -15,6 +15,7 @@
         <module>001-eureka</module>
         <module>002-eureka-ha</module>
         <module>003-ribbon</module>
+        <module>004-feign</module>
     </modules>
 
     <properties>

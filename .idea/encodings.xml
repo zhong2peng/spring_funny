@@ -15,6 +15,10 @@
     <file url="file://$PROJECT_DIR$/cloud/003-ribbon/consumer-movie-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/003-ribbon/discovery-eureka-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/003-ribbon/provider-user-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/004-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/004-feign/consumer-movie-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/004-feign/discovery-eureka-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/004-feign/provider-user-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-dependencies" charset="UTF-8" />
   </component>
