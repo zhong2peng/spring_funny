@@ -1,5 +1,6 @@
 package com.dnight.cloud.customer.feign;
 
+import com.dnight.cloud.customer.config.UserCenterFeignConfig;
 import com.dnight.cloud.customer.entity.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
@@ -10,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
  * @author ZHONGPENG769
  * @date 2019/10/10
  */
-@FeignClient(name = "provider-user-feign")
+@FeignClient(name = "provider-user-feign", configuration = UserCenterFeignConfig.class)
 public interface UserFeignClient {
 
     @GetMapping(value = "/user/get")

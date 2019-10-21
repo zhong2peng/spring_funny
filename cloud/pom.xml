@@ -16,6 +16,10 @@
         <module>002-eureka-ha</module>
         <module>003-ribbon</module>
         <module>004-feign</module>
+        <module>005-hystrix-ribbon</module>
+        <module>006-hystrix-feign</module>
+        <module>007-zuul</module>
+        <module>008-comprehensive</module>
     </modules>
 
     <properties>

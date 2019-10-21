@@ -1,0 +1,17 @@
+server:
+  port: 8900
+spring:
+  application:
+    name: sc-hystrix-turbine-dashboard
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123456@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    appname: ${spring.application.name}
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: sc-consumer-feign,sc-consumer-ribbon
+  clusterNameExpression: "'default'"

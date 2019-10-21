@@ -1,0 +1,19 @@
+server:
+    port: 8040
+spring:
+    application:
+        name: zuul-gateway
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka/
+    instance:
+        prefer-ip-address: true
+zuul:
+  routes:
+    api-provider:
+      path: /api-a/**
+      serviceId: zuul-provider-user
+    api-consumer:
+      path: /api-b/**
+      serviceId: zuul-consumer-movie
