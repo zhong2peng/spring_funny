@@ -17,7 +17,7 @@ import java.util.List;
 public interface ConsumerFeignClient {
 
     @GetMapping("test/{msg}")
-    String sayHelloWorld(@PathVariable String msg);
+    String sayHelloWorld(@PathVariable("msg") String msg);
 
     @GetMapping("test/list")
     List<Integer> list();

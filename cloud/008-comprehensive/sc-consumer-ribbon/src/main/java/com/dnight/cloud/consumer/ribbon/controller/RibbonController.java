@@ -2,6 +2,7 @@ package com.dnight.cloud.consumer.ribbon.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,14 +20,17 @@ public class RibbonController {
     @Autowired
     private RestTemplate restTemplate;
 
+    @Value("${demo.title:gggg}")
+    private String remoteConfig;
+
     @Autowired
     private LoadBalancerClient loadBalancerClient;
 
     @GetMapping("ribbon/{wd}")
     @HystrixCommand(fallbackMethod = "fallbackMethod")
-    public Mono<String> sayHelloWorld(@PathVariable String parm){
+    public Mono<String> sayHelloWorld(@PathVariable("wd") String parm){
         String res = this.restTemplate.getForObject("http://sc-provider/test/" + parm, String.class);
-        return Mono.just(res);
+        return Mono.just("RemoteConfig: "+remoteConfig+" | "+res);
     }
 
     public Mono<String> fallbackMethod(@PathVariable String parm){
