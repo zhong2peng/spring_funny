@@ -20,6 +20,8 @@
         <module>006-hystrix-feign</module>
         <module>007-zuul</module>
         <module>008-comprehensive</module>
+        <module>009-gateway</module>
+        <module>010-zuul-ratelimit</module>
     </modules>
 
     <properties>

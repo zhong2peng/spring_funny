@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="010-zuul-ratelimit" />
         <module name="common-core" />
         <module name="common-dependencies" />
         <module name="consumer-movie-feign" />
@@ -16,6 +17,10 @@
         <module name="discovery-eureka-hystrix-feign" />
         <module name="discovery-eureka-hystrix-ribbon" />
         <module name="discovery-eureka-ribbon" />
+        <module name="gateway" />
+        <module name="gateway-consumer" />
+        <module name="gateway-eureka" />
+        <module name="gateway-producer" />
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-ha" />
         <module name="microservice-discovery-eureka" />
@@ -49,6 +54,8 @@
       <module name="006-hystrix-feign" target="1.8" />
       <module name="007-zuul" target="1.8" />
       <module name="008-comprehensive" target="1.8" />
+      <module name="009-gateway" target="1.8" />
+      <module name="010-zuul-ratelimit" target="1.8" />
       <module name="cloud" target="1.8" />
       <module name="common-core" target="1.8" />
       <module name="common-dependencies" target="1.8" />
@@ -60,6 +67,10 @@
       <module name="discovery-eureka-hystrix-feign" target="1.8" />
       <module name="discovery-eureka-hystrix-ribbon" target="1.8" />
       <module name="discovery-eureka-ribbon" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="gateway-consumer" target="1.8" />
+      <module name="gateway-eureka" target="1.8" />
+      <module name="gateway-producer" target="1.8" />
       <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-consumer-movie-ha" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />

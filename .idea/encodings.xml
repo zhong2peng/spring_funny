@@ -41,6 +41,12 @@
     <file url="file://$PROJECT_DIR$/cloud/008-comprehensive/sc-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/008-comprehensive/sc-sleuth-zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/008-comprehensive/sc-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-gateway/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-gateway/gateway-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-gateway/gateway-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-gateway/gateway-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/010-zuul-ratelimit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-dependencies" charset="UTF-8" />
   </component>

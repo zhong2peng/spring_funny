@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/cloud/006-hystrix-feign/006-hystrix-feign.iml" filepath="$PROJECT_DIR$/cloud/006-hystrix-feign/006-hystrix-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/007-zuul/007-zuul.iml" filepath="$PROJECT_DIR$/cloud/007-zuul/007-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/008-comprehensive/008-comprehensive.iml" filepath="$PROJECT_DIR$/cloud/008-comprehensive/008-comprehensive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/009-gateway/009-gateway.iml" filepath="$PROJECT_DIR$/cloud/009-gateway/009-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/010-zuul-ratelimit/010-zuul-ratelimit.iml" filepath="$PROJECT_DIR$/cloud/010-zuul-ratelimit/010-zuul-ratelimit.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/cloud.iml" filepath="$PROJECT_DIR$/cloud/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-core/common-core.iml" filepath="$PROJECT_DIR$/common-core/common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-dependencies/common-dependencies.iml" filepath="$PROJECT_DIR$/common-dependencies/common-dependencies.iml" />
@@ -21,6 +23,10 @@
       <module fileurl="file://$PROJECT_DIR$/cloud/006-hystrix-feign/discovery-eureka-hystrix-feign/discovery-eureka-hystrix-feign.iml" filepath="$PROJECT_DIR$/cloud/006-hystrix-feign/discovery-eureka-hystrix-feign/discovery-eureka-hystrix-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/005-hystrix-ribbon/discovery-eureka-hystrix-ribbon/discovery-eureka-hystrix-ribbon.iml" filepath="$PROJECT_DIR$/cloud/005-hystrix-ribbon/discovery-eureka-hystrix-ribbon/discovery-eureka-hystrix-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/003-ribbon/discovery-eureka-ribbon/discovery-eureka-ribbon.iml" filepath="$PROJECT_DIR$/cloud/003-ribbon/discovery-eureka-ribbon/discovery-eureka-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/009-gateway/gateway/gateway.iml" filepath="$PROJECT_DIR$/cloud/009-gateway/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/009-gateway/gateway-consumer/gateway-consumer.iml" filepath="$PROJECT_DIR$/cloud/009-gateway/gateway-consumer/gateway-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/009-gateway/gateway-eureka/gateway-eureka.iml" filepath="$PROJECT_DIR$/cloud/009-gateway/gateway-eureka/gateway-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/009-gateway/gateway-producer/gateway-producer.iml" filepath="$PROJECT_DIR$/cloud/009-gateway/gateway-producer/gateway-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/001-eureka/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/cloud/001-eureka/microservice-consumer-movie/microservice-consumer-movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/002-eureka-ha/microservice-consumer-movie-ha/microservice-consumer-movie-ha.iml" filepath="$PROJECT_DIR$/cloud/002-eureka-ha/microservice-consumer-movie-ha/microservice-consumer-movie-ha.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/001-eureka/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/cloud/001-eureka/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
