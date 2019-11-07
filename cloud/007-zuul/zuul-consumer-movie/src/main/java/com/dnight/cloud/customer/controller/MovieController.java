@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.UUID;
+
 
 /**
  * @author ZHONGPENG769
@@ -31,9 +33,10 @@ public class MovieController {
 
     @GetMapping("/log-user-instance")
     public String logUserInstance() {
-        ServiceInstance serviceInstance = loadBalancerClient.choose("provider-user-ribbon");
-        return String.format("%s:%s:%s", serviceInstance.getServiceId(),
-                serviceInstance.getHost(), serviceInstance.getPort());
+        return UUID.randomUUID().toString();
+//        ServiceInstance serviceInstance = loadBalancerClient.choose("provider-user-ribbon");
+//        return String.format("%s:%s:%s", serviceInstance.getServiceId(),
+//                serviceInstance.getHost(), serviceInstance.getPort());
     }
 
 }

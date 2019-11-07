@@ -12,6 +12,7 @@
         <module>common-dependencies</module>
         <module>common-core</module>
         <module>cloud</module>
+        <module>boot-framework</module>
     </modules>
 
     <!-- 公共信息配置 -->

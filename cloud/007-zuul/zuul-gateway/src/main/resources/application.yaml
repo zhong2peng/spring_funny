@@ -28,6 +28,7 @@ zuul:
         limit: 10
         quota: 50
         refresh-interval: 60
+    repository: redis
 #        limit 单位时间内允许访问的个数
 #        quota 单位时间内允许访问的总时间（统计每次请求的时间综合）
 #        refresh-interval 单位时间设置

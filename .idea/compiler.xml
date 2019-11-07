@@ -17,6 +17,7 @@
         <module name="discovery-eureka-hystrix-feign" />
         <module name="discovery-eureka-hystrix-ribbon" />
         <module name="discovery-eureka-ribbon" />
+        <module name="dnight-core" />
         <module name="gateway" />
         <module name="gateway-consumer" />
         <module name="gateway-eureka" />
@@ -56,6 +57,7 @@
       <module name="008-comprehensive" target="1.8" />
       <module name="009-gateway" target="1.8" />
       <module name="010-zuul-ratelimit" target="1.8" />
+      <module name="boot-framework" target="1.8" />
       <module name="cloud" target="1.8" />
       <module name="common-core" target="1.8" />
       <module name="common-dependencies" target="1.8" />
@@ -67,6 +69,7 @@
       <module name="discovery-eureka-hystrix-feign" target="1.8" />
       <module name="discovery-eureka-hystrix-ribbon" target="1.8" />
       <module name="discovery-eureka-ribbon" target="1.8" />
+      <module name="dnight-core" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="gateway-consumer" target="1.8" />
       <module name="gateway-eureka" target="1.8" />
